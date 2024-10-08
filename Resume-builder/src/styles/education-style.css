@@ -1,0 +1,74 @@
+
+.general {
+    margin-bottom: 40px;
+}
+.education-container {
+    overflow-y: scroll;
+}
+
+.college-info {
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+} 
+
+.college-info label {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.college-info input {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.degree-info {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.degree-info label {
+    display: flex;
+    flex-direction: column;
+}
+
+.degree-info input {
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+
+.study-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.study-info label {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    flex-direction: column;
+}
+
+.study-info input {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.add-item {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.add-item label {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-item input {
+    height: 30px;
+    margin-top: 10px;
+}
+

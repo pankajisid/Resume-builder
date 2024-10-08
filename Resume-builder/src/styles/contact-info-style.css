@@ -1,0 +1,115 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    color:black;
+}
+
+.preview-container {
+    background-color: yellow;
+    display: flex;
+}
+
+h3 {
+    font-weight: 100;
+    font-size: larger;
+}
+
+.first-last-name {
+    display: flex;
+    gap: 50px;
+    margin-right: 20px;
+}
+
+.first-last-name label {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.first-last-name input {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.profession {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.profession label {
+    display: flex;
+    flex-direction: column;
+}
+
+.profession input {
+    height: 30px;
+    margin-top: 10px;
+}
+
+.residence {
+    margin-top: 20px;
+    display: flex;
+}
+
+.residence label {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.residence input {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.contact-info {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-info label {
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.contact-info input {
+    margin-top: 10px;
+    height: 30px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#next, #final {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
+
+#back {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 400px;
+    margin-left: 20px;
+}
+
+
+
+button {
+    background-color:silver;
+    font-size: larger;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: 2px solid brown;
+    color: chocolate;
+}
+
